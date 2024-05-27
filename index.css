@@ -1,0 +1,1522 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.Nmain1 {
+    border-width: 0 0 6px 0;
+    border-style: solid;
+    border-color: rgb(85, 82, 82);
+}
+
+.Nm3 {
+    border-width: 6px 0 0 0;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+
+.Nm4 {
+    border-width: 6px 0 0 0;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+
+.Nm5 {
+    border-width: 6px 0 0 0;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+
+.Nques {
+    border-width: 6px 0 0 0;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+
+.Nfooter {
+    border-width: 6px 0 0 0;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+
+@media(min-width:992px) {
+    .Nmain1 {
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/31ef2c5c-3d08-47d5-b7a9-f29e4f4f893d/1ac1cee7-5580-4cfa-b701-99d1a8f2d148/IN-en-20240506-POP_SIGNUP_TWO_WEEKS-perspective_WEB_ebbef551-d229-4865-8cdc-fb00f8960227_large.jpg');
+        height: 90vh;
+        top: 0;
+        background-size: max(1200px, 100vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .Nm1 {
+        width: 100%;
+        height: 90vh;
+        opacity: 0.65;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+
+    nav {
+        padding-top: 30px;
+        max-width: 80vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav span svg {
+        color: red;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nbtns {
+        position: relative;
+        z-index: 1;
+    }
+
+    .Nm1text {
+        padding: 0 30px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+    }
+
+    h1 {
+        font-size: 48px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        font-family: Segoe UI;
+        font-weight: 400;
+    }
+
+    .Nbtn {
+        padding: 4px 9px;
+        border: 1px solid rgba(138, 128, 128, 0.99);
+        border-radius: 4px;
+        background-color: rgba(247, 241, 241, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+    .Nbtn-sn {
+        color: white;
+        font-weight: bold;
+        background-color: red;
+        border: 0px;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 3px 10px;
+    }
+
+    .Nbtns-2 {
+        display: flex;
+        font-weight: bold;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Ninput {
+        color: white;
+        font-weight: 400;
+        background-color: rgba(44, 42, 42, 0.763);
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 7px 8px 8px 14px;
+    }
+
+    .Nbtn-gs {
+        color: white;
+        font-weight: 500;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        background-color: red;
+        border: 0px;
+        font-size: 24px;
+        padding: 9px 15px;
+        line-height: 24px;
+
+    }
+
+    .Nm2 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm2 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm2 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nimg1 {
+        position: relative;
+    }
+
+    .Nimg1 img {
+        width: 555px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg1 video {
+        position: absolute;
+        top: 70px;
+        right: 2px;
+    }
+
+    .Nm3 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm3 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm3 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm4 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nimg2 {
+        position: relative;
+    }
+
+    .Nimg2 img {
+        width: 500px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg2 video {
+        width: 310px;
+        position: absolute;
+        top: 25px;
+        right: 101px;
+    }
+
+    .Nm4 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm4 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm5 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm5 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm5 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nques {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        padding: 50px 40px;
+        gap: 15px;
+    }
+
+    .Nqcards:hover {
+        background-color: rgb(147, 145, 145);
+    }
+
+    .Nqcards {
+        transition: all 1s ease-out;
+        cursor: pointer;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        background-color: rgb(44, 42, 42);
+    }
+
+    .Nquesh2 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .Nfooter {
+        color: rgba(248, 247, 247, 0.801);
+        font-family: sans-serif;
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Nfooter h3 {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .Nfooter a {
+        margin-top: 50px;
+        font-size: 50px;
+        text-decoration: underline;
+
+    }
+
+    .Nfl {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .Nft {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:991px) and (min-width:850px) {
+    .Nmain1 {
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/31ef2c5c-3d08-47d5-b7a9-f29e4f4f893d/1ac1cee7-5580-4cfa-b701-99d1a8f2d148/IN-en-20240506-POP_SIGNUP_TWO_WEEKS-perspective_WEB_ebbef551-d229-4865-8cdc-fb00f8960227_large.jpg');
+        height: 90vh;
+        top: 0;
+        background-size: max(1200px, 100vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .Nm1 {
+        width: 100%;
+        height: 90vh;
+        opacity: 0.65;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+
+    nav {
+        padding-top: 30px;
+        max-width: 80vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav span svg {
+        color: red;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nbtns {
+        position: relative;
+        z-index: 1;
+    }
+
+    .Nm1text {
+        padding: 0 30px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+    }
+
+    h1 {
+        font-size: 42px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        font-family: Segoe UI;
+        font-weight: 400;
+    }
+
+    .Nbtn {
+        padding: 4px 9px;
+        border: 1px solid rgba(138, 128, 128, 0.99);
+        border-radius: 4px;
+        background-color: rgba(247, 241, 241, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+    .Nbtn-sn {
+        color: white;
+        font-weight: bold;
+        background-color: red;
+        border: 0px;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 3px 10px;
+    }
+
+    .Nbtns-2 {
+        display: flex;
+        font-weight: bold;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Ninput {
+        color: white;
+        font-weight: 400;
+        background-color: rgba(44, 42, 42, 0.763);
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 7px 8px 8px 14px;
+    }
+
+    .Nbtn-gs {
+        color: white;
+        font-weight: 500;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        background-color: red;
+        border: 0px;
+        font-size: 24px;
+        padding: 9px 15px;
+        line-height: 24px;
+
+    }
+
+    .Nm2 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm2 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm2 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nimg1 {
+        position: relative;
+    }
+
+    .Nimg1 img {
+        width: 555px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg1 video {
+        position: absolute;
+        top: 70px;
+        right: 2px;
+    }
+
+    .Nm3 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm3 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm3 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm4 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nimg2 {
+        position: relative;
+    }
+
+    .Nimg2 img {
+        width: 500px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg2 video {
+        width: 310px;
+        position: absolute;
+        top: 25px;
+        right: 101px;
+    }
+
+    .Nm4 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm4 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm5 {
+        display: flex;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm5 h1 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nm5 h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .Nques {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        padding: 50px 40px;
+        gap: 15px;
+    }
+
+    .Nqcards:hover {
+        background-color: rgb(147, 145, 145);
+    }
+
+    .Nqcards {
+        transition: all 1s ease-out;
+        cursor: pointer;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        background-color: rgb(44, 42, 42);
+    }
+
+    .Nquesh2 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .Nfooter {
+        color: rgba(248, 247, 247, 0.801);
+        font-family: sans-serif;
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Nfooter h3 {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .Nfooter a {
+        margin-top: 50px;
+        font-size: 50px;
+        text-decoration: underline;
+
+    }
+
+    .Nfl {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .Nft {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:851px) and (min-width:600px) {
+    .Nmain1 {
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/31ef2c5c-3d08-47d5-b7a9-f29e4f4f893d/1ac1cee7-5580-4cfa-b701-99d1a8f2d148/IN-en-20240506-POP_SIGNUP_TWO_WEEKS-perspective_WEB_ebbef551-d229-4865-8cdc-fb00f8960227_large.jpg');
+        height: 100vh;
+        top: 0;
+        background-size: max(1200px, 100vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .Nm1 {
+        width: 100%;
+        height: 100vh;
+        opacity: 0.65;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+
+    nav {
+        padding-top: 30px;
+        max-width: 80vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav span svg {
+        color: red;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nbtns {
+        position: relative;
+        z-index: 1;
+    }
+
+    .Nm1text {
+        padding: 0 30px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+    }
+
+    h1 {
+        font-size: 42px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        font-family: Segoe UI;
+        font-weight: 400;
+    }
+
+    .Nbtn {
+        padding: 4px 9px;
+        border: 1px solid rgba(138, 128, 128, 0.99);
+        border-radius: 4px;
+        background-color: rgba(247, 241, 241, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+    .Nbtn-sn {
+        color: white;
+        font-weight: bold;
+        background-color: red;
+        border: 0px;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 3px 10px;
+    }
+
+    .Nbtns-2 {
+        display: flex;
+        font-weight: bold;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Ninput {
+        color: white;
+        font-weight: 400;
+        background-color: rgba(44, 42, 42, 0.763);
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 7px 8px 8px 14px;
+    }
+
+    .Nbtn-gs {
+        color: white;
+        font-weight: 500;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        background-color: red;
+        border: 0px;
+        font-size: 24px;
+        padding: 9px 15px;
+        line-height: 24px;
+
+    }
+
+    .Nm2 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm2 h1 {
+        margin-bottom: 24px;
+    }
+
+
+    .Nimg1 {
+        position: relative;
+    }
+
+    .Nimg1 img {
+        width: 555px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg1 video {
+        position: absolute;
+        top: 70px;
+        right: 2px;
+    }
+
+    .Nm3 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nhead1 {
+        order: -1;
+    }
+
+    .Nm3 h1 {
+        margin-bottom: 24px;
+    }
+
+
+    .Nm4 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nimg2 {
+        position: relative;
+    }
+
+    .Nimg2 img {
+        width: 500px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg2 video {
+        width: 310px;
+        position: absolute;
+        top: 25px;
+        right: 101px;
+    }
+
+    .Nm4 h1 {
+        margin-bottom: 24px;
+    }
+
+    .Nm5 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nhead2 {
+        order: -1;
+    }
+
+    .Nm5 h1 {
+        margin-bottom: 24px;
+    }
+
+    .Nques {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        padding: 50px 40px;
+        gap: 15px;
+    }
+
+    .Nqcards:hover {
+        background-color: rgb(147, 145, 145);
+    }
+
+    .Nqcards {
+        transition: all 1s ease-out;
+        cursor: pointer;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        background-color: rgb(44, 42, 42);
+    }
+
+    .Nquesh2 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .Nfooter {
+        color: rgba(248, 247, 247, 0.801);
+        font-family: sans-serif;
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Nfooter h3 {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .Nfooter a {
+        margin-top: 50px;
+        font-size: 40px;
+        text-decoration: underline;
+
+    }
+
+    .Nfl {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .Nft {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:601px) and (min-width:400px) {
+    .Nmain1 {
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/31ef2c5c-3d08-47d5-b7a9-f29e4f4f893d/1ac1cee7-5580-4cfa-b701-99d1a8f2d148/IN-en-20240506-POP_SIGNUP_TWO_WEEKS-perspective_WEB_ebbef551-d229-4865-8cdc-fb00f8960227_large.jpg');
+        height: 105vh;
+        top: 0;
+        background-size: max(1200px, 100vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .Nm1 {
+        width: 100%;
+        height: 105vh;
+        opacity: 0.65;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+
+    nav {
+        padding-top: 10px;
+        max-width: 80vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav span svg {
+        color: red;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nbtns {
+        position: relative;
+        z-index: 1;
+    }
+
+    .Nm1text {
+        padding: 0 30px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 18px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        font-family: Segoe UI;
+        font-weight: 400;
+    }
+
+    .Nbtn {
+        padding: 4px 9px;
+        border: 1px solid rgba(138, 128, 128, 0.99);
+        border-radius: 4px;
+        background-color: rgba(247, 241, 241, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+    .Nbtn-sn {
+        color: white;
+        font-weight: bold;
+        background-color: red;
+        border: 0px;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 3px 10px;
+    }
+
+    .Nbtns-2 {
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Ninput {
+        color: white;
+        font-weight: 400;
+        background-color: rgba(44, 42, 42, 0.763);
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 7px 8px 8px 14px;
+    }
+
+    .Nbtn-gs {
+        color: white;
+        font-weight: 500;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        background-color: red;
+        border: 0px;
+        font-size: 24px;
+        padding: 9px 15px;
+        line-height: 24px;
+
+    }
+
+    .Nm2 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm2 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm2 h2 {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .Nimg1 {
+        position: relative;
+    }
+
+    .Nimg1 img {
+        width: 355px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg1 video {
+        width: 300px;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+    }
+
+    .Nm3 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nhead1 {
+        order: -1;
+    }
+
+    .Nm3 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm3 h2 {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .Nm4 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nimg2 {
+        position: relative;
+    }
+
+    .Nimg2 img {
+        width: 350px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg2 video {
+        width: 220px;
+        position: absolute;
+        top: 14px;
+        right: 63px;
+    }
+
+    .Nm4 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm4 h2 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm5 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nhead2 {
+        order: -1;
+    }
+
+    .Nm5 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm5 h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Nques {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        padding: 50px 40px;
+        gap: 15px;
+    }
+
+    .Nqcards:hover {
+        background-color: rgb(147, 145, 145);
+    }
+
+    .Nqcards {
+        transition: all 1s ease-out;
+        cursor: pointer;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        background-color: rgb(44, 42, 42);
+    }
+
+    .Nquesh2 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .Nfooter {
+        color: rgba(248, 247, 247, 0.801);
+        font-family: sans-serif;
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Nfooter h3 {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .Nfooter a {
+        margin-top: 50px;
+        font-size: 40px;
+        text-decoration: underline;
+
+    }
+
+    .Nfl {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .Nft {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:401px) {
+    .Nmain1 {
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/31ef2c5c-3d08-47d5-b7a9-f29e4f4f893d/1ac1cee7-5580-4cfa-b701-99d1a8f2d148/IN-en-20240506-POP_SIGNUP_TWO_WEEKS-perspective_WEB_ebbef551-d229-4865-8cdc-fb00f8960227_large.jpg');
+        height: 88vh;
+        top: 0;
+        background-size: max(1200px, 100vw);
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .aaa {
+        display: none;
+    }
+
+    .Nm1 {
+        width: 100%;
+        height: 88vh;
+        opacity: 0.65;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+
+    nav {
+        padding-top: 10px;
+        max-width: 80vh;
+        margin: auto;
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    nav span svg {
+        color: red;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nbtns {
+        position: relative;
+        z-index: 1;
+    }
+
+    .Nm1text {
+        padding: 0 30px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 16px;
+        text-align: center;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+    }
+
+    .Nbtn {
+        padding: 4px 9px;
+        border: 1px solid rgba(138, 128, 128, 0.99);
+        border-radius: 4px;
+        background-color: rgba(247, 241, 241, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+    .Nbtn-sn {
+        color: white;
+        font-weight: bold;
+        background-color: red;
+        border: 0px;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 3px 10px;
+    }
+
+    .Nbtns-2 {
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Ninput {
+        color: white;
+        font-weight: 400;
+        background-color: rgba(44, 42, 42, 0.763);
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 6px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 7px 8px 8px 14px;
+    }
+
+    .Nbtn-gs {
+        color: white;
+        font-weight: 500;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        background-color: red;
+        border: 0px;
+        font-size: 18px;
+        padding: 9px 15px;
+        line-height: 20px;
+
+    }
+
+    .Nm2 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nm2 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm2 h2 {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .Nimg1 {
+        position: relative;
+    }
+
+    .Nimg1 img {
+        width: 355px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg1 video {
+        width: 300px;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+    }
+
+    .Nm3 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nhead1 {
+        order: -1;
+    }
+
+    .Nm3 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm3 h2 {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .Nm4 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nimg2 {
+        position: relative;
+    }
+
+    .Nimg2 img {
+        width: 350px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .Nimg2 video {
+        width: 220px;
+        position: absolute;
+        top: 14px;
+        right: 63px;
+    }
+
+    .Nm4 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm4 h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Nm5 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+    }
+
+    .Nhead2 {
+        order: -1;
+    }
+
+    .Nm5 h1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .Nm5 h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Nques {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        padding: 50px 40px;
+        gap: 15px;
+    }
+
+    .Nqcards:hover {
+        background-color: rgb(147, 145, 145);
+    }
+
+    .Nqcards {
+        transition: all 1s ease-out;
+        cursor: pointer;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        background-color: rgb(44, 42, 42);
+    }
+
+    .Nquesh2 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .Nfooter {
+        color: rgba(248, 247, 247, 0.801);
+        font-family: sans-serif;
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Nfooter h3 {
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .Nfooter a {
+        margin-top: 50px;
+        font-size: 40px;
+        text-decoration: underline;
+
+    }
+
+    .Nfl {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .Nft {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
